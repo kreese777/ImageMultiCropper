@@ -1,0 +1,15 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore cropped images folder
+cropped_images/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+env/
+venv/
+ENV/

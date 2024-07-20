@@ -2,10 +2,10 @@ import os
 from PyQt6.QtWidgets import QMainWindow, QLabel, QVBoxLayout, QWidget, QScrollArea, QHBoxLayout, QToolButton, QStatusBar, QApplication, QPushButton
 from PyQt6.QtGui import QPixmap, QImage, QCursor
 from PyQt6.QtCore import Qt, QPoint
-from rectangle_list import RectangleList
-from rectangle_manager import RectangleManager
-from menu_manager import MenuManager
-from mouse_manager import MouseManager
+from Managers.rectangle_list import RectangleList
+from Managers.rectangle_manager import RectangleManager
+from Managers.menu_manager import MenuManager
+from Managers.mouse_manager import MouseManager
 
 class ImageCropper(QMainWindow):
     def __init__(self):
