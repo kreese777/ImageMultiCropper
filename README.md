@@ -19,7 +19,7 @@ Image Multi Cropper was built for my coin collecting hobby, but it was also modi
    
 2. Install the required packages:
    ```bash
-   pip install -r requirements.txt`
+   pip install -r requirements.txt
    ```
    
 ## Usage
